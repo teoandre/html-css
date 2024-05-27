@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-elementos</title>
+    <style>
+        a {
+            color: rgb(72, 72, 238);
+            text-decoration: none;
+        
+        }
+
+        a:visited {
+            color: rgb(2, 2, 111);
+        }
+
+        a:hover {
+            color: rgb(2, 122, 122);
+            text-decoration: underline;
+        }
+
+        a::after {
+            content: ' [link]';
+            text-decoration: underline;
+            color: black;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.instagram.com/deh_102/?igsh=ZTNtaWE5Z2Z4cHpx" target="_blank">Meu Insta</a></li>
+        <li><a href="https://youtu.be/l08Zw-RY__Q?si=0tErepZCExoUYCYe">wildflower</a></li>
+        <li><a href="https://youtu.be/HUHC9tYz8ik?si=R5zM7HVF-TbaRUhH">Bury a friend</a></li>
+    </ul>
+</body>
+</html>

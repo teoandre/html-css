@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+/*Paleta white, #84E1AD, #1D673D */
+
+body {
+    background-color: #84E1AD;
+
+}
+
+header {
+    height: 220px;
+    background-image: linear-gradient(to top, #14482a, #31ae67, #39CC7A);
+    color: white;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.445);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header > h1 , header > p {
+    text-align: center;
+    padding-top: 35px;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.547);
+}
+
+header > p {
+    padding-bottom: 55px;
+}
+
+nav > a {
+    margin-left: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    width: 900px;
+    margin: auto;
+    padding-top: 2em;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.505);
+    padding-bottom: 1em;
+    margin-bottom: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
+
+}
+
+#artigo > h1, h3 {
+    font-family: 'idroid', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #237948;
+    background-image: linear-gradient(to right, #31ae678b 3%, #44f490ac 10%, white 90%);
+    margin-left: 10px;
+    padding-left: 5px;
+}
+
+#artigo > p {
+    text-align: justify;
+    text-indent: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#android {
+    display: block;
+    margin: 0 auto;
+}
+
+.destacado {
+    font-weight: bold;
+    color: #31ae67;
+}
+
+#video {
+    display: block;
+    margin: 0 auto;
+
+}
+
+.links {
+    font-weight: bold;
+    text-decoration: none;
+    color: #31ae67;
+}
+
+.links:hover {
+    color: #14482a;
+    text-decoration: underline;
+}
+
+.links:visited {
+    color: #14482a;
+}
+
+a {
+    margin: 0;
+    display: inline;
+    padding: 0;
+}
+
+footer {
+    background-color: #14482a;
+    height: 1.5em;
+    padding-top: 0.2em;
+}
+
+footer > p {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}

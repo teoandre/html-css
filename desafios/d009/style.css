@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(226, 200, 167);
+}
+
+
+.container, .container-dois {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Espaçamento opcional */
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-container img {
+    width: 336px; /* Tamanho das imagens */
+    height: 188px; /* Tamanho das imagens */
+    margin: 5px; /* Espaçamento entre as imagens */
+}

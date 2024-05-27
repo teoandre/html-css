@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+
+/*Em html id é = # em css
+  Em html class é = . em css
+*/
+
+body {
+    background-color: rgb(179, 243, 221);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+    color: rgb(66, 135, 112);
+}
+
+#principal {
+    background-color: rgb(55, 95, 82);
+    border-radius: 8px;
+    text-align: center;
+    color: aquamarine;
+}
+
+h2 {
+    color: rgb(85, 169, 141);
+}
+
+p {
+    text-align: justify;
+}

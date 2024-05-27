@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: bisque;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        header {
+            background-color: rgb(150, 134, 114);
+            text-align: center;
+            border-radius: 6px;
+        }
+
+        main {
+            width: 600px;
+            margin: auto;
+        }
+
+        #navegar {
+            background-color: antiquewhite;
+            border: 2px solid black;
+        }
+
+        #navegar > a {
+            margin-right: 16px;
+            text-decoration: none;
+            color: black;
+            
+        }
+
+        #navegar > a:hover {
+            text-decoration: underline;
+            color: brown;
+            font-weight: bold;
+
+        }
+
+        section {
+            background-color: rgb(150, 134, 114);
+            height: 200px;
+            box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.518);
+            text-align: center;
+        }
+
+        article {
+            background-color: rgb(183, 163, 139);
+            text-align: justify;
+            height: 150px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav id="navegar">
+            <a href="#">Noticias</a>
+            <a href="#">Esportes</a>
+            <a href="#">Clima</a>
+            <a href="#">Sobre o Site</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h3>Noticias</h3>
+
+        <article>
+            <h4>X noticias</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, totam. Ducimus dolorum, incidunt consectetur unde in eligendi? Quas libero aliquam dolores, cum quae amet voluptates quod, culpa officia temporibus doloremque.</p>
+
+        </article>
+        </section>
+        <aside>
+            <a href="#">link fonte</a>
+
+        </aside>
+
+        <footer>
+            <p>Criado Por blahblah </p>
+
+        </footer>
+    </main>
+
+
+    
+</body>
+</html>
