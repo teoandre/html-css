@@ -75,14 +75,30 @@ pre {
 section.imagem {
     background-color: rgb(82, 82, 82);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.432);
+    background-attachment: fixed;
+}
+
+section#img01 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: center right ;
+    background-size: cover;
+
+}
+
+section#img02 {
+    background-image: url('../imagens/background002.jpg');
+    background-position: center right ;
+    background-size: cover;
 }
 
 section.imagem > pre {
     width: 400px;
-    background-color: rgba(0, 0, 0, 0.423);
+    background-color: rgba(0, 0, 0, 0.495);
     font-family: var(--fonte3);
     display: inline-block;
     padding: 5px;
+    text-shadow: 1px 1px 1px black;
 }
 
 footer {
